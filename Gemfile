@@ -20,16 +20,6 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-
-group :production do
-  # gems specifically for Heroku go here
-  gem "pg"
-	gem "execjs"
-
-	gem "therubyracer"
-end
-
-
 group :development do
   gem 'rspec-rails', '2.6.1'
 end
@@ -51,3 +41,12 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
+
+
+group :production do
+  # gems specifically for Heroku go here
+  gem "pg"
+	gem "execjs"
+
+	gem "therubyracer"
+end
