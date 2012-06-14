@@ -42,7 +42,6 @@ gem 'jquery-rails'
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
 
-
 group :production do
   # gems specifically for Heroku go here
   gem "pg"
